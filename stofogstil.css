@@ -66,16 +66,90 @@ h1 {
     width:1px;
     background-color:#4C4D4F;
     position:absolute;
-    left:90px;
+    margin-left:55px;
 }
 
-#eller {
-    margin-top:40px;
+.container {
+    margin-top:50px;
     text-align: center;
+    line-height:0px;
 }
 
-#eller:before{
-    content:"";
-    width:100%;
-    border-top:solid #4C4D4F 2px;
+.line1 {
+    height:1px;
+    width:30%;
+    background-color:#4C4D4F;
+    float:left;
+    margin-left:15px;
+}
+
+.line2 {
+    height:1px;
+    width:30%;
+    background-color:#4C4D4F;
+    float:right;
+    margin-right:15px;
+}
+
+.indtast {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width:250px;
+    height:40px;
+    text-align:center;
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
+    line-height: 40px;
+}
+
+#brugernavn {
+    margin-top:50px;
+}
+
+.logind {
+    background-color: #7DC578;
+    border-radius: 10px;
+    width:250px;
+    height:40px;
+    text-align:center;
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
+    line-height: 40px;
+}
+
+.huskmig {
+    display:block;
+    margin-top:10px;
+    margin-left: 25px;
+    width:100px;
+    float:left;
+    font-size:14px;
+}
+
+#glemtpass {
+    float:right;
+    margin-top:10px;
+    margin-right:25px;
+    display:block;
+    font-size:14px;
+}
+
+#opret {
+    margin-top:70px;
+    float:left;
+    color:#ffffff;
+    font-size:14px;
+    margin-left:25px;
+}
+
+#gaest {
+    margin-top: 55px;
+    margin-right:25px;
+    color:#ffffff;
+    float:right;
+    font-size:14px;
 }
