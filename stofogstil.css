@@ -1,0 +1,81 @@
+body {
+    background-color: #A9877C;
+    background-image: linear-gradient(#ffffff, #A9877C);
+    font-family: 'Signika', sans-serif;
+    height:700px;
+    color:#4C4D4F;
+}
+
+h1 {
+    text-align: center;
+    font-weight: lighter;
+    display: block;
+    margin-top: 70px;
+}
+
+.logo {
+    display:block;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.fblogin {
+    background-color: #3D5A98;
+    border-radius: 10px;
+    width:250px;
+    height:40px;
+    text-align:center;
+    display:block;
+    margin:auto;
+    box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
+    color: #ffffff;
+    line-height: 40px;
+}
+
+.fbikon {
+    height:35px;
+    width:auto;
+    float:left;
+    margin-left:2px;
+}
+
+.googlelogin {
+    background-color: #ffffff;
+    border-radius: 10px;
+    width:250px;
+    height:40px;
+    text-align:center;
+    display:block;
+    margin:auto;
+    margin-top:15px;
+    box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
+    line-height: 40px;
+}
+
+.googleikon {
+    height:27px;
+    width:auto;
+    float:left;
+    margin-top:4.5px;
+    margin-left:15px;
+}
+
+.lineikon {
+    height:40px;
+    width:1px;
+    background-color:#4C4D4F;
+    position:absolute;
+    left:90px;
+}
+
+#eller {
+    margin-top:40px;
+    text-align: center;
+}
+
+#eller:before{
+    content:"";
+    width:100%;
+    border-top:solid #4C4D4F 2px;
+}
