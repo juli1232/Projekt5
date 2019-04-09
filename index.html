@@ -18,17 +18,64 @@
         <h1>VELKOMMEN <br> TIL</h1>
         
         <div class="logo"> STOFF & STIL</div>
-        <div class="fblogin">
+        <a href="forside.html"><div class="indtast" id="fblogin">
             <img src="images/facebooklogo.png" alt="facebook logo ikon" class="fbikon">
             <div class="lineikon"></div>
             <p>Log på med Facebook</p>
-        </div>
+        </div></a>
         
-        <div class="googlelogin">
+        <a href="forside.html"><div class="indtast" id="googlelogin">
             <img src="images/googlelogo.png" alt="google logo ikon" class="googleikon">
             <div class="lineikon"></div>
             <p>Log på med Google</p>
+            </div></a>
+        
+        <!-- LOG IND MANUELT -->
+        <div class="indtast" id="myBtn">
+            <div class="lineikon"></div>
+            <p>Opret bruger</p></div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="logo" id="logobrugermanuel"> STOFF & STIL</div>
+                <h2 id="opretbrugeroverskrift">OPRET BRUGER</h2>
+                <label for="e-mail"></label>
+                <input type="text" placeholder="Indtast e-mail" name="email" required>
+                
+                <label for="gentag e-mail"></label>
+                <input type="text" placeholder="Gentag e-mail" name="gentastemail" required>
+                
+                <label for="brugernavn"></label>
+                <input type="text" placeholder="Indtast brugernavn" name="brugernavn" required>
+                
+                <label for="kodeord"></label>
+                <input type="text" placeholder="Indtast kodeord" name="kodeord" required>
+                
+                <label for="gentag kodeord"></label>
+                <input type="text" placeholder="Gentag kodeord" name="gentagkodeord" required>
+                
+                <a href="forside.html"><div class="indtast" id="logindknapmanuel">LOG IND</div></a>
+            </div>
         </div>
+        
+        <script>
+        
+            var modal = document.getElementById('myModal');
+            var btn = document.getElementById("myBtn");
+            var span = document.getElementsByClassName("close")[0];
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+            
+        
+        </script>
+        
+        <!-- LOG IND MANUELT SLUT -->
+        
+        <a href="forside.html"><p id="gaest">Fortsæt som gæst</p></a>
         
         <div class="container">
             <div class="line1"></div>
@@ -41,19 +88,15 @@
         <div class="indtast" id="kodeord">
             <div class="lineikon"></div>Kodeord</div>
         
-        <div class="logind">Log ind</div>
+        <a href="forside.html"><div class="indtast" id="logind">Log ind</div></a>
         
         <div class="huskmig">
             <form action="/action_page.php">
-                <input type="checkbox" name="savepassword" value="Husk mig">Husk mig
+                <input id="checkbox" type="checkbox" name="savepassword" value="Husk mig">Husk mig
             </form>
         </div>
         
-        <p id="glemtpass">Glemt password?</p>
-        
-        <p id="opret">Opret bruger</p>
-        
-        <p id="gaest">Fortsæt som gæst</p>
+        <div id="glemtpass">Glemt password?</div>
         
     </main>
 
