@@ -1,0 +1,102 @@
+body {
+  font-family: 'signika', sans-serif;
+}
+
+h1{font-size: 25px;}
+
+/* The Overlay (background) */
+.overlay {  
+  height: 100%;
+  width: 0;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  background-color:#4c4d4f; 
+  background-color: #f7f5f4;
+  overflow: hidden;
+    transition: 0.3s;
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 100px; 
+  text-align: left; 
+  margin-left: 40px;
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #4c4d4f;
+  display: block; 
+  transition: 0.3s; 
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #7dc578; 
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.openbtn {
+    cursor:pointer;
+    position: relative;
+    top: 420px;
+    margin-left: 220px;
+}
+
+.infosymbol{
+    width: 40px;
+    padding-right: 20px;
+    padding-top: 15px;
+}
+
+.infosymbol1{
+    width: 32px;
+    padding-right: 25px;
+    padding-top: 16px;
+}
+
+.hurtigtekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 28px;
+}
+
+.findbutiktekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 110px;
+}
+
+.katalogtekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 175px;
+}
+
+.kundeservicetekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 245px;
+}
+
+.outlettekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 315px;
+}
+
+
+
+
