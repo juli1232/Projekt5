@@ -21,7 +21,7 @@ h1{font-size: 25px;}
 /* Position the content inside the overlay */
 .overlay-content {
   position: relative;
-  top: 100px; 
+  top: 80px; 
   text-align: left; 
   margin-left: 40px;
 }
@@ -95,6 +95,12 @@ h1{font-size: 25px;}
     position: absolute;
     margin-left: 70px;
     top: 315px;
+}
+
+.logudtekst{
+    position: absolute;
+    margin-left: 70px;
+    top: 385px;
 }
 
 
