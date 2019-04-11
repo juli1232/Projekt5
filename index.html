@@ -5,19 +5,14 @@
     <title>Stof og Stil - App</title>
     <link rel="stylesheet" href="css/stofogstil.css">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <script src="javascript/stofogstil.js" defer></script>
 </head>
 
-<body>
-    <header>
-    </header>
-    
-    <nav>
-    </nav>
-    
+<body id="logindside">
+   
     <main>
         <h1>VELKOMMEN <br> TIL</h1>
-        
-        <div class="logo"> STOFF & STIL</div>
+        <img src="images/logo.png" alt="logo" class="logo">
         <a href="forside.html"><div class="indtast" id="fblogin">
             <img src="images/facebooklogo.png" alt="facebook logo ikon" class="fbikon">
             <div class="lineikon"></div>
@@ -32,12 +27,14 @@
         
         <!-- LOG IND MANUELT -->
         <div class="indtast" id="myBtn">
+            <img src="images/profil.png" alt="brugerikon" class="brugerikon">
             <div class="lineikon"></div>
             <p>Opret bruger</p></div>
         <div id="myModal" class="modal">
             <div class="modal-content">
                 <span class="close">&times;</span>
-                <div class="logo" id="logobrugermanuel"> STOFF & STIL</div>
+                <br>
+                <img src="images/logo.png" alt="logo" class="logo">
                 <h2 id="opretbrugeroverskrift">OPRET BRUGER</h2>
                 <label for="e-mail"></label>
                 <input type="text" placeholder="Indtast e-mail" name="email" required>
@@ -54,29 +51,13 @@
                 <label for="gentag kodeord"></label>
                 <input type="text" placeholder="Gentag kodeord" name="gentagkodeord" required>
                 
-                <a href="forside.html"><div class="indtast" id="logindknapmanuel">LOG IND</div></a>
+                <a href="forside.html"><div class="indtast" id="logindknapmanuel">Log ind</div></a>
             </div>
         </div>
-        
-        <script>
-        
-            var modal = document.getElementById('myModal');
-            var btn = document.getElementById("myBtn");
-            var span = document.getElementsByClassName("close")[0];
-            btn.onclick = function () {
-                modal.style.display = "block";
-            }
-            span.onclick = function () {
-                modal.style.display = "none";
-            }
-            
-        
-        </script>
         
         <!-- LOG IND MANUELT SLUT -->
         
         <a href="forside.html"><p id="gaest">Fortsæt som gæst</p></a>
-        
         <div class="container">
             <div class="line1"></div>
             ELLER
@@ -84,8 +65,9 @@
         </div>
         
         <div class="indtast" id="brugernavn">
+            <img src="images/profil.png" alt="brugerikon" class="brugerikon">
             <div class="lineikon"></div>Brugernavn</div>
-        <div class="indtast" id="kodeord">
+        <div class="indtast" id="kodeord"><img src="images/login.png" alt="login ikon" class="loginikon">
             <div class="lineikon"></div>Kodeord</div>
         
         <a href="forside.html"><div class="indtast" id="logind">Log ind</div></a>
@@ -100,6 +82,4 @@
         
     </main>
 
-    <footer>
-    </footer>
 </body>

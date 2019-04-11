@@ -1,9 +1,12 @@
 body {
+    font-family: 'Signika', sans-serif;
+    color:#4C4D4F;
+    margin-left: 0;
+}
+
+#logindside {
     background-color: #A9877C;
     background-image: linear-gradient(#ffffff, #A9877C);
-    font-family: 'Signika', sans-serif;
-    height:700px;
-    color:#4C4D4F;
 }
 
 a {
@@ -11,18 +14,22 @@ a {
     color:#4C4D4F;
 }
 
+a:hover {
+    cursor:pointer;
+}
+
 h1 {
     text-align: center;
     font-weight: lighter;
     display: block;
     margin-top: 70px;
+    margin-bottom:0px;
 }
 
 .logo {
     display:block;
-    font-size:50px;
-    text-align: center;
-    margin-bottom: 50px;
+    height:100px;
+    width:auto;
 }
 
 #fblogin {
@@ -125,8 +132,25 @@ h1 {
     float:right;
     margin-top:13px;
     margin-right:15%;
+    margin-bottom:50px;
     display:block;
     font-size:11px;
+}
+
+.loginikon {
+    height:27px;
+    width:auto;
+    float:left;
+    margin-left:17px;
+    margin-top:6px;
+}
+
+.brugerikon {
+    height:27px;
+    width:auto;
+    float:left;
+    margin-left:16px;
+    margin-top:6px;
 }
 
 /*Opret bruger modal */
@@ -156,12 +180,13 @@ h1 {
 
 #opretbrugeroverskrift {
     text-align:center;
+    margin-top:0px;
 }
 
 .close {
     color:#4C4D4F;
     float:left;
-    font-size:35px;
+    font-size:45px;
     font-weight:bold;
     margin-left: 10px;
 }
@@ -175,7 +200,7 @@ h1 {
 input {
     background-color: #ffffff;
     border-radius: 10px;
-    width:220px;
+    width:235px;
     height:40px;
     display:block;
     text-align:left;
@@ -188,14 +213,341 @@ input {
 }
 
 #logindknapmanuel {
-    background-color:green;
-    width:150px;
-    height:60px;
-    line-height:60px;
-    font-weight:bold;
+    background-color:#7DC578;
+    margin-bottom:50px;
 }
 
 #logobrugermanuel {
-    margin:auto;
     margin-top:30px;
+    text-align: center;
+}
+
+header {
+    background-color:#F7F5F4;
+    width:100%;
+    height:56px;
+    position:fixed;
+    top:0;
+    z-index:1;
+}
+
+#logohead {
+    height:60px;
+    display: block;
+    margin:auto;
+}
+
+footer {
+    background-color:#F7F5F4;
+    width:100%;
+    height:56px;
+    position:fixed;
+    bottom:0;
+}
+
+.forsidebillede {
+    width: 260px;
+    display:block;
+    margin:auto;
+    margin-top:20px;
+    border-radius:5%;
+}
+
+#firstpicforside {
+    margin-top:75px;
+}
+
+#lastpicforside {
+    margin-bottom: 70px;
+}
+
+.container2 {
+    position:relative;
+}
+
+.forsidefont {
+    position:absolute;
+    top:0px;
+    left:20%;
+    font-size:70px;
+    color:#ffffff;
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+#hashtagfont {
+    font-size:55px;
+    left:13%;
+    top:25px;
+    text-align: center;
+}
+
+#forsidefontstof {
+    font-size:55px;
+    margin-top:15px;
+    left:16%;
+    text-align:center;
+}
+
+h2 {
+    margin-top:70px;
+    font-size:45px;
+    margin-left:10px;
+    float:left;
+    margin-right:50px;
+    margin-bottom:20px;
+}
+
+.knapopretforum {
+    background-color:#F7F5F4;
+    height:30px;
+    width:90px;
+    font-size:13px;
+    font-weight: bold;
+    text-align:center;
+    line-height: 30px;
+    border-radius:10px;
+    box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
+    margin-top:0px;
+    position:absolute;
+    top:70px;
+    right:15px;
+}
+
+.katbillede1 {
+    width:150px;
+    border-top-left-radius:5%;
+    float:left;
+    margin-left:3%;
+    margin-bottom:25px;
+}
+
+.katbillede2 {
+    width:75px;
+    float:left;
+    
+}
+
+.katbillede3 {
+    width:75px;
+    float:left;
+    border-top-right-radius:5%;
+}
+
+.bjaelkeforum {
+    background-color: #EEDDDD;
+    width:300px;
+    height:60px;
+    position:absolute;
+    top:255px;
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius: 7px;
+    margin-left:2.96%;
+}
+
+#herretojoverskrift {
+    top:428px;
+}
+
+#herretoj1 {
+    margin-bottom:69px;
+}
+
+#bornoverskrift {
+    top:620px;
+}
+
+#born1 {
+    margin-bottom:55px;
+}
+
+#bolig1 {
+    margin-bottom: 30px;
+}
+
+#boligoverskrift {
+    top:800px;
+}
+
+#strik1 {
+    margin-bottom:80px;
+}
+
+#strikoverskrift {
+    top:990px;
+}
+
+#tekststrik {
+    margin-right:0;
+}
+
+.kategoritekst {
+    font-size:30px;
+    margin-top:11px;
+    margin-left:10px;
+    margin-right:100px;
+}
+
+.nederdel {
+    height:180px;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    float:left;
+    margin-left:3.5%;
+}
+
+.lilleoverskrift {
+    font-weight:bold;
+    font-size: 21px;
+    margin-bottom:0;
+    margin-top:5px;
+}
+
+.indhold {
+    margin-top:0px;
+    font-size:13px;
+}
+
+.dametojbeskr {
+    height:160px;
+    width:150px;
+    background-color: #EEDDDD;
+    float:left;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    padding:10px;
+}
+
+#bomber {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#bomberlio {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+#skjorte {
+    margin-bottom:10px;
+}
+
+#skjortelio {
+    margin-bottom:10px;
+}
+
+#maxi {
+    margin-bottom:70px;
+}
+
+/* menu bar */
+
+#topmenu {
+    position:absolute;
+    top:0;
+    margin-left:10px;
+    margin-top:5px;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4C4D4F;
+    background-color: #F7F5F4;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.overlayContent {
+    position: relative;
+    top: 100px;
+    text-align: left;
+    margin-left: 25%;
+}
+
+.overlay a {
+    padding-left: 10px;
+    text-decoration: none;
+    color: #4C4D4F;
+    display: block;
+    transition: 0.3;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #7DC578;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    font-size: 50px;
+    cursor: pointer;
+
+}
+
+.openbtn { 
+    font-size: 30px;
+    color: #4C4D4F;
+    cursor: pointer;
+}
+
+.navText {
+    font-size: 20px;
+    color: #4C4D4F;
+    padding-bottom: 8px;
+}
+#metervareSymbol {
+    width: 21px;
+    float: left;
+    padding-right: 18px;
+    padding-left: 5px;
+}
+
+#moenstreSymbol {
+    width: 26px;
+    float: left;
+    padding-right: 18px;
+}
+
+#sytilbehoerSymbol {
+    width: 24px;
+    float: left;
+    padding-right: 18px;
+}
+
+#garnSymbol {
+    width: 26px;
+    float: left;
+    padding-right: 16px; 
+}
+
+#hobbySymbol {
+    width: 19px;
+    float: left;
+    padding-right: 19px;
+    padding-left: 3px;
+}
+
+#organicSymbols {
+    width: 22px;
+    float: left;
+    padding-right: 17px;
+    padding-left: 3px; 
+}
+
+#kitsSymbol {
+    width: 14px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 8px;  
+}
+
+#udsalgSymbols {
+    width: 24px;
+    float: left;
+    padding-right: 15px;
+    padding-left: 2px;  
 }
