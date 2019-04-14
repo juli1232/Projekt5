@@ -2,6 +2,7 @@ body {
     font-family: 'Signika', sans-serif;
     color:#4C4D4F;
     margin-left: 0;
+    margin-right:0;
 }
 
 #logindside {
@@ -29,7 +30,7 @@ h1 {
 .logo {
     display:block;
     height:100px;
-    width:auto;
+    margin:auto;
 }
 
 #fblogin {
@@ -160,6 +161,7 @@ h1 {
 }
 
 .modal {
+    display:none;
     position:fixed;
     z-index:1;
     left:0;
@@ -181,6 +183,8 @@ h1 {
 #opretbrugeroverskrift {
     text-align:center;
     margin-top:0px;
+    margin-left:0px;
+    font-size:30px;
 }
 
 .close {
@@ -197,7 +201,7 @@ h1 {
     cursor: pointer;
 }
 
-input {
+.inputopret {
     background-color: #ffffff;
     border-radius: 10px;
     width:235px;
@@ -237,6 +241,8 @@ header {
     margin:auto;
 }
 
+/* footer og indhold */
+
 footer {
     background-color:#F7F5F4;
     width:100%;
@@ -245,8 +251,51 @@ footer {
     bottom:0;
 }
 
+.back {
+    height:44.65%;
+    margin-top:15px;
+    margin-left:6.25%;
+    float:left;
+}
+
+@media only screen and (min-width:370px) {
+    .back {
+        margin-left:10%;
+    }
+}
+
+.forumikon {
+    height:49%;
+    margin-left:9.4%;
+    margin-top:17px;
+    float:left;
+}
+
+.hjerte {
+    height:50%;
+    margin-top:15px;
+    margin-left:9.4%;
+    float:left;
+}
+
+.profilikon {
+    height:50%;
+    margin-left:9.4%;
+    margin-top:15px;
+    float:left;
+}
+
+.infoikon {
+    height:16%;
+    margin-left:9.4%;
+    margin-bottom:10px;
+    margin-top:25px;
+    float:left;
+}
+
+/* FORSIDE */
 .forsidebillede {
-    width: 260px;
+    width: 90%;
     display:block;
     margin:auto;
     margin-top:20px;
@@ -275,11 +324,24 @@ footer {
     font-weight: bold;
 }
 
+@media only screen and (min-width: 370px) {
+    .forsidefont {
+        top:7%;
+        left:25%;
+    }
+}
+
 #hashtagfont {
     font-size:55px;
     left:13%;
     top:25px;
     text-align: center;
+}
+
+@media only screen and (min-width 370px) {
+    #hashtagfont {
+    right:20%;
+}
 }
 
 #forsidefontstof {
@@ -290,18 +352,16 @@ footer {
 }
 
 h2 {
-    margin-top:70px;
+    margin-top:24.5%;
     font-size:45px;
-    margin-left:10px;
-    float:left;
-    margin-right:50px;
+    margin-left:7%;
     margin-bottom:20px;
 }
 
 .knapopretforum {
     background-color:#F7F5F4;
-    height:30px;
-    width:90px;
+    height:5.25%;
+    width:28%;
     font-size:13px;
     font-weight: bold;
     text-align:center;
@@ -310,71 +370,101 @@ h2 {
     box-shadow: 1.5px 1.5px 1.5px #a8a8a8;
     margin-top:0px;
     position:absolute;
-    top:70px;
+    top:12.3%;
     right:15px;
 }
 
 .katbillede1 {
-    width:150px;
+    width:45%;
     border-top-left-radius:5%;
-    float:left;
-    margin-left:3%;
     margin-bottom:25px;
+    margin-left:2.5%;
+    float:left;
 }
 
 .katbillede2 {
-    width:75px;
+    width:25%;
     float:left;
-    
 }
 
 .katbillede3 {
-    width:75px;
-    float:left;
+    width:25%;
     border-top-right-radius:5%;
+    float:left;
+    margin-bottom:20%;
 }
 
 .bjaelkeforum {
     background-color: #EEDDDD;
-    width:300px;
+    width:95%;
     height:60px;
     position:absolute;
-    top:255px;
+    top:45%;
     border-bottom-left-radius:7px;
     border-bottom-right-radius: 7px;
-    margin-left:2.96%;
+    margin-left:2.5%;
+}
+
+@media only screen and (min-width: 370px) {
+    .bjaelkeforum {
+    top:35%;
+    }
+}
+
+#herretoj {
+    margin-bottom:20%;
 }
 
 #herretojoverskrift {
-    top:428px;
+    top:75%;
 }
 
-#herretoj1 {
-    margin-bottom:69px;
+@media only screen and (min-width: 370px) {
+    #herretojoverskrift {
+        top:60%;
+    }
+}
+
+#born {
+    margin-bottom:19.5%;
 }
 
 #bornoverskrift {
-    top:620px;
+    top:109%;
 }
 
-#born1 {
-    margin-bottom:55px;
+@media only screen and (min-width: 370px) {
+    #bornoverskrift {
+        top:88%;
+    }
 }
 
-#bolig1 {
-    margin-bottom: 30px;
+#bolig {
+    margin-bottom:11.5%;
 }
 
 #boligoverskrift {
-    top:800px;
+    top:141%;
 }
 
-#strik1 {
-    margin-bottom:80px;
+@media only screen and (min-width: 370px) {
+    #boligoverskrift {
+        top:114%;
+    }
+}
+
+#strik {
+    margin-bottom:31.5%;
 }
 
 #strikoverskrift {
-    top:990px;
+    top:174%;
+}
+
+@media only screen and (min-width: 370px) {
+    #strikoverskrift {
+        top:142.5%;
+    }
 }
 
 #tekststrik {
@@ -386,6 +476,7 @@ h2 {
     margin-top:11px;
     margin-left:10px;
     margin-right:100px;
+    text-align: left;
 }
 
 .nederdel {
@@ -398,6 +489,7 @@ h2 {
 
 .lilleoverskrift {
     font-weight:bold;
+    text-align:left;
     font-size: 21px;
     margin-bottom:0;
     margin-top:5px;
@@ -406,6 +498,7 @@ h2 {
 .indhold {
     margin-top:0px;
     font-size:13px;
+    text-align:left;
 }
 
 .dametojbeskr {
@@ -450,8 +543,8 @@ h2 {
 }
 
 .overlay {
-    height: 100%;
-    width: 0;
+    width:0%;
+    height:100%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -462,9 +555,9 @@ h2 {
     transition: 0.3s;
 }
 
-.overlayContent {
+.overlaycontent {
     position: relative;
-    top: 100px;
+    top: 70px;
     text-align: left;
     margin-left: 25%;
 }
@@ -485,7 +578,6 @@ h2 {
     position: absolute;
     font-size: 50px;
     cursor: pointer;
-
 }
 
 .openbtn { 
@@ -498,6 +590,7 @@ h2 {
     font-size: 20px;
     color: #4C4D4F;
     padding-bottom: 8px;
+    text-align: left;
 }
 #metervareSymbol {
     width: 21px;
@@ -550,4 +643,317 @@ h2 {
     float: left;
     padding-right: 15px;
     padding-left: 2px;  
+}
+
+#nederdelindpic {
+    width:95%;
+    display:block;
+    margin:auto;
+    margin-top:65px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+#nederdelindcontent {
+    position:static;
+    width:95%;
+    height:400px;
+    margin-bottom:65px;
+}
+
+#nederdelind {
+    margin-top:0px;
+    line-height:55px;
+    font-size:30px;
+    margin-left:15px;
+}
+
+#madeby {
+    margin-top:0px;
+    margin-left:15px;
+    line-height:0px;
+}
+
+.tekstnederdel {
+    margin-top:20px;
+    margin-left:15px;
+    margin-right:15px;
+}
+
+.linenederdel {
+    width:270px;
+    border-top:2px dashed #4C4D4F;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.materialer {
+    margin-left:15px;
+    margin-right:15px;
+    font-size:13px;
+}
+
+/* slideshow */
+/* Slideshow container */
+.slideContainer {
+    max-width: 560px;
+    position: relative;
+    
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #A8A8A8;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right:5%;
+    border-radius: 0 3px 3px 0;
+
+}
+.prev {
+    left:5%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: #4C4D4F;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin-right: 0px;
+    margin-left: 2px;
+    background-color: #A8A8A8;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #4C4D4F;
+}
+
+/* Fading animation */
+.fade {
+
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+#dots { 
+    position: absolute;
+    top: 260px;
+    left: 40%; 
+}
+
+.picslide {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    display:block;
+    margin:auto;
+}
+
+#populartext {
+    text-align:center;
+    font-size:15px;
+    margin-top:60px;
+    margin-bottom:5px;
+}
+
+#hashtagstorover {
+    font-size:30px;
+    text-align:center;
+    margin-top:5px;
+    margin-bottom:0px;
+}
+
+#introhashtag{
+    text-align:center;
+    width:90%;
+    display:block;
+    margin:auto;
+    margin-bottom:10px;
+}
+
+.posthashtag {
+    width:45%;
+    margin-left:5%;
+    float:left;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+}
+
+.indholdkasse {
+    width:45%;
+    height:166px;
+    float:left;
+    background-color:#EEDDDD;
+    margin-bottom:5%;
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.overind {
+    margin-top:5px;
+    margin-bottom:0px;
+    padding:10px;
+    padding-bottom: 0px;
+    font-size:15px;
+    padding-top:5px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.hashtagtekst {
+    font-size:13px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right:10px;
+    margin:0;
+}
+
+.brugernavn {
+    font-size:18px;
+}
+
+#skoindhold {
+    height:163px;
+}
+
+#skjorteindhold {
+    height:169px;
+}
+
+.hashtagline {
+    border-top:2px dashed #4C4D4F;
+    width:120px;
+    margin-top:15px;
+    margin-bottom:10px;
+}
+
+#semere {
+    margin-bottom:70px;
+    top:184%;
+    left:37%;
+}
+
+/*søgefunktion */
+.searchikon {
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:25px;
+    margin-top:13px;
+    margin-right:10px;
+}
+
+#modalsearch {
+    background-color: #ffffff;
+    height:1100px;
+}
+
+.container4 {
+    margin:0px;
+    position:absolute;
+    width:100%;
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline: none;
+    height: 3rem;
+    width: 80%;
+    font-size: 20px;
+    line-height: normal;
+    padding: 0auto;
+    box-shadow: none;
+    transition: all 0.3s;
+    text-align: center;
+    display:block;
+    margin:auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+
+h5 {
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #4C4D4F;
+    text-align: center;
+    font-family: 'Signika', sans-serif;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  font-size: 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: list-item;
+}
+
+.collection .collection-item {
+  background-color: #fff;
+  line-height: 1.5rem;
+  padding: 10px 20px;
+  margin: 0;
+  border-bottom: 1px solid #e0e0e0;
+    width: 65%;
+}
+
+/*infoknap */
+
+#overlay2 {
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#ffffff;
+    z-index:2;
 }

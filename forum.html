@@ -12,65 +12,166 @@
 <body>
     <header>
         <a href="forside.html"><img src="images/logo.png" alt="logo" class="logo" id="logohead"></a>
-    <div id="Nav" class="overlay">
+    <!-- menu -->
+        <div id="Nav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;
             </a>
             
             <div class="overlayContent">
-                <div><a href="https://www.stofogstil.dk/metervarer"><img id="metervareSymbol" src="images/metervarer.png" alt="Metervarer"><p class="navText">Metervarer</p></a></div>
+                <div>
+                    <a href="https://www.stofogstil.dk/metervarer"><img id="metervareSymbol" src="images/metervarer.png" alt="Metervarer"><p class="navText">Metervarer</p>
+                    </a>
+                </div>
                 
-                <div><a href="https://www.stofogstil.dk/moenstre-strikkeopskrifter-og-haekleopskrifter"><img id="moenstreSymbol" src="images/moenstre.png" alt="Moenstre"><p class="navText">Mønstre</p></a></div>
+                <div>
+                    <a href="https://www.stofogstil.dk/moenstre-strikkeopskrifter-og-haekleopskrifter"><img id="moenstreSymbol" src="images/moenstre.png" alt="Moenstre"><p class="navText">Mønstre</p></a>
+                </div>
                 
-                <div><a href="https://www.stofogstil.dk/sytilbehoer"><img id="sytilbehoerSymbol" src="images/sytilbeh%C3%B8r.png" alt="Sytilbehoer"><p class="navText">Sytilbehør</p></a></div>
+                <div>
+                    <a href="https://www.stofogstil.dk/sytilbehoer"><img id="sytilbehoerSymbol" src="images/sytilbeh%C3%B8r.png" alt="Sytilbehoer"><p class="navText">Sytilbehør</p>
+                    </a>
+                </div>
                 
-                <div><a href="https://www.stofogstil.dk/garn"><img id="garnSymbol" src="images/garn.png" alt="Garn"><p class="navText">Garn</p></a></div>
+                <div>
+                    <a href="https://www.stofogstil.dk/garn"><img id="garnSymbol" src="images/garn.png" alt="Garn"><p class="navText">Garn</p>
+                    </a>
+                </div>
 
-                <div><a href="https://www.stofogstil.dk/hobby"><img id="hobbySymbol" src="images/hobby.png" alt="Hobby"><p class="navText">Hobby</p></a></div>
+                <div>
+                    <a href="https://www.stofogstil.dk/hobby"><img id="hobbySymbol" src="images/hobby.png" alt="Hobby"><p class="navText">Hobby</p>
+                    </a>
+                </div>
                 
-                <div><a href="https://www.stofogstil.dk/organic"><img id="organicSymbols" src="images/organic.png" alt="Organic"><p class="navText">Organic</p></a></div> 
+                <div>
+                    <a href="https://www.stofogstil.dk/organic"><img id="organicSymbols" src="images/organic.png" alt="Organic"><p class="navText">Organic</p>
+                    </a>
+                </div> 
                 
-                <div><a href="https://www.stofogstil.dk/kit/list"><img id="kitsSymbol" src="images/kit.png" alt="Kits"><p class="navText">Kits</p></a></div> 
+                <div>
+                    <a href="https://www.stofogstil.dk/kit/list"><img id="kitsSymbol" src="images/kit.png" alt="Kits"><p class="navText">Kits</p>
+                    </a>
+                </div> 
                 
-                <div><a href="https://www.stofogstil.dk/udsalg-alt"><img id="udsalgSymbols" src="images/udsalg.png" alt="Udsalg"><p class="navText">Udsalg</p></a></div> 
+                <div>
+                    <a href="https://www.stofogstil.dk/udsalg-alt"><img id="udsalgSymbols" src="images/udsalg.png" alt="Udsalg"><p class="navText">Udsalg</p>
+                    </a>
+                </div> 
+                
             </div>
-           </div>
+        </div>
+        <!-- søgefunktion før modal-->
+        <img src="images/search.png" class="searchikon" id="myBtn" alt="søg">
+        <div id="myModal" class="modal">
+            <div class="modal-content" id="modalsearch">
+        <div class="container4">
+            <span class="close">&times;</span>
+    <h1>Søg</h1>
+    <input type="text" id="filterInput" placeholder="Søg i Stof og stil...">
+    <ul id="items" class="collection with-header">
+      <li class="collection-header">
+        <h5>B</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Badeforhæng</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Bistretch</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Blonde</a>
+      </li>
+      <li class="collection-header">
+        <h5>C</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Canvas</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Chiffon</a>
+      </li>
+      <li class="collection-header">
+        <h5>D</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Denim</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Design-stykker</a>
+      </li>
+       <li class="collection-header">
+        <h5>F</h5>
+      </li>
+      <li class="collection-item">
+        <a href="#">Filt</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Fleece</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Fløjl</a>
+      </li>
+      <li class="collection-item">
+        <a href="#">Frotté</a>
+      </li>
+    </ul>
+    </div>
+        </div>
+
+</div>
+        
         <span class="openbtn" id="topmenu" onclick="openNav()">&#9776;</span> 
     </header>
     <main>
         <h2 id="forumoverskrift">FORUM</h2>
-        <div class="knapopretforum">+ INDLÆG</div>
+        <a href="opretpost.html"><div class="knapopretforum">+ INDLÆG</div></a>
+        <div>
+            <a href="dametoj.html"><img src="images/damet%C3%B8j1.jpg" class="katbillede1">
+            <img src="images/damet%C3%B8j2.jpg" class="katbillede2">
+            <img src="images/damet%C3%B8j3.jpg" class="katbillede3">
+            <div class="bjaelkeforum"><p class="kategoritekst">Dametøj >></p>
+            </div></a>
+        </div>
         
-        <a href="dametoj.html"><img src="images/damet%C3%B8j1.jpg" class="katbillede1">
-        <img src="images/damet%C3%B8j2.jpg" class="katbillede2">
-        <img src="images/damet%C3%B8j3.jpg" class="katbillede3">
-        <div class="bjaelkeforum"><p class="kategoritekst">Dametøj >></p>
-        </div></a>
-        
-        <img src="images/herretoj1.png" alt="herretøj1" class="katbillede1" id="herretoj1">
+        <div>
+        <img src="images/herretoj1.png" alt="herretøj1" class="katbillede1">
         <img src="images/herret%C3%B8j2.jpg" alt="herretøj2" class="katbillede2">
-        <img src="images/herret%C3%B8j3.jpg" alt="herretøj3" class="katbillede3">
+        <img src="images/herret%C3%B8j3.jpg" alt="herretøj3" class="katbillede3" id="herretoj">
         <div class="bjaelkeforum" id="herretojoverskrift"><p class="kategoritekst" >Herretøj >></p>
         </div>
-        
+            </div>
+        <div>
         <img src="images/born1.jpg" alt="børn1" class="katbillede1" id="born1">
         <img src="images/born2.jpg" alt="børn2" class="katbillede2">
-        <img src="images/born3.jpg" alt="børn3" class="katbillede3">
+        <img src="images/born3.jpg" alt="børn3" class="katbillede3" id="born">
         <div class="bjaelkeforum" id="bornoverskrift"><p class="kategoritekst">Børnetøj >></p>
         </div>
-        
+            </div>
+        <div>
         <img src="images/bolig1.jpg" alt="bolig1" class="katbillede1" id="bolig1">
         <img src="images/bolig2.jpg" alt="bolig2" class="katbillede2">
-        <img src="images/bolig3.jpg" alt="bolig3" class="katbillede3">
+        <img src="images/bolig3.jpg" alt="bolig3" class="katbillede3" id="bolig">
         <div class="bjaelkeforum" id="boligoverskrift"><p class="kategoritekst">Interiør >></p>
         </div>
-        
+            </div>
+        <div>
         <img src="images/strik1.jpg" alt="strik1" class="katbillede1" id=strik1>
         <img src="images/strik2.jpg" alt="strik2" class="katbillede2">
-        <img src="images/strik3.jpg" alt="strik3" class="katbillede3">
+        <img src="images/strik3.jpg" alt="strik3" class="katbillede3" id="strik">
         <div class="bjaelkeforum" id="strikoverskrift"><p class="kategoritekst" id="tekststrik">Strik og hækling >></p>
         </div>
+            </div>
     
     </main>
     
-    <footer></footer>
+    <footer>
+         <a href="forside.html"><img src="images/back.png" class="back" alt="tilbage"></a>
+        
+        <img src="images/forum.png" class="forumikon" alt="forum">
+        
+        <img src="images/hjerte.png" class="hjerte" alt="hjerte">
+        
+        <img src="images/profil.png" class="profilikon" alt="profil">
+        
+        <img src="images/info.png" class="infoikon" alt="info">
+    </footer>
 </body>

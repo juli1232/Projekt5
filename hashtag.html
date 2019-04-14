@@ -98,28 +98,75 @@
         
     </header>
     <main>
-        <h2 id="dametojoverskrift">DAMETØJ</h2>
-        <div class="knapopretforum">+ INDLÆG</div>
+        <h3 id="populartext">MÅNEDENS MEST POPULÆRE</h3>
         
-        <a href="nederdel.html"><img src="images/damesl%C3%A5om.png" class="nederdel">
-        <div class="dametojbeskr"><p class="lilleoverskrift">Slå-om nederdel</p><p class="indhold">Af Louise Hansen<br><br>Flot nederdel i viskosemateriale som ikke krøller!! Nederdelen... </p></div></a>
+         <div class="slideContainer">
+            <div class="mySlides">
+                <img src="images/hashtagPic1.png" width="90%" class="picslide" alt="slide1">
+            </div>
+            <div class="mySlides">
+                <img src="images/hashtagPic2.png.jpeg" width="90%" class="picslide" alt="slide2">
+            </div>
+            <div class="mySlides">
+                <img src="images/hashtagPic3.png.jpeg" width="90%" class="picslide" alt="slide3">
+            </div>
+            
+            
+            <div id="dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
         
-        <img src="images/damebomber.png" class="nederdel" id="bomber">
-        <div class="dametojbeskr" id="bomberlio">
-        <p class="lilleoverskrift">Bomber jakke</p><p class="indhold">Af Mie Jakobsen<br><br>Denne bomber er vildt fin som overgangsjakke. Elastikbånd ved håndled...</p></div>
+        <h3 id="hashtagstorover">MIT STOF MIN STIL</h3>
+        <p id="introhashtag">Del dine kreative projekter med os!
+        <br>
+        Hver fredag deler vi kreative projekter på vores instagram, hvis du tagger os med @StofogStil samt #MitStofMinStil.</p>
         
-        <img src="images/dameskjorte.png" class="nederdel" id="skjorte">
-        <div class="dametojbeskr" id="skjortelio">
-        <p class="lilleoverskrift">Løs skjorte</p><p class="indhold">Af Susanne Nielsen<br><br>Denne bomber er vildt fin som overgangsjakke. Elastikbånd ved håndled...</p></div>
+        <img src="images/hashtagtoj.jpg" class="posthashtag" alt="tøjbillede">
+        <div class="indholdkasse">
+            <p class="overind">VINDER UGE 12 
+            <br>
+                <span class="brugernavn">@SusNielsen</span></p>
+             <hr class="hashtagline">   
+            <p class="hashtagtekst">
+                @SusNielsen har brugt både knapper og stof fra Stof & Stil til at sy tøj til dukker.
+            </p>
+        </div>
         
-        <img src="images/damemaxi.png" class="nederdel" id="maxi">
-        <div class="dametojbeskr" id="maxilio">
-        <p class="lilleoverskrift">Maxi-kjole</p><p class="indhold">Af Susanne Nielsen<br><br>Denne bomber er vildt fin som overgangsjakke. Elastikbånd ved håndled...</p></div>
+        <img src="images/hashtagsko.jpg" class="posthashtag" alt="skobillede">
+        <div class="indholdkasse" id="skoindhold">
+        <p class="overind">VINDER UGE 11
+            <br>
+            <span class="brugernavn">@KarenMadsen</span></p>
+            <hr class="hashtagline">
+            <p class="hashtagtekst">
+                @Karenmadsen har med økologisk garn i forskellige farver fra Stof & Stil strikket disse fine børnesko.
+            </p>
+        </div>
+        
+        <img src="images/hashtagskjorte.jpg" class="posthashtag" alt="postskjorte">
+        <div class="indholdkasse" id="skjorteindhold">
+        <p class="overind">VINDER UGE 10 
+            <br>
+            <span class="brugernavn">@LivSørensen</span></p>
+            <hr class="hashtagline">
+                <p class="hashtagtekst">
+                @LivSørensen har brugt to slags stribet stof fra Stof & Stil til at lave den anderledes udgave af en skjorte!
+            </p>
+        </div>
+        
+        <div class="knapopretforum" id="semere">VIS FLERE</div>
     
     </main>
     
     <footer>
-        <a href="forum.html"><img src="images/back.png" class="back" alt="tilbage"></a>
+        <a href="forside.html"><img src="images/back.png" class="back" alt="tilbage"></a>
         
         <img src="images/forum.png" class="forumikon" alt="forum">
         
