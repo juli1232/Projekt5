@@ -156,7 +156,6 @@ h1 {
 
 /*Opret bruger modal */
 #myBtn {
-    font-size: ;
     line-height: 40px;
 }
 
@@ -261,6 +260,12 @@ footer {
 @media only screen and (min-width:370px) {
     .back {
         margin-left:10%;
+    }
+}
+
+@media only screen and (min-width:410px) {
+    .back {
+        margin-left:13%;
     }
 }
 
@@ -374,6 +379,18 @@ h2 {
     right:15px;
 }
 
+@media only screen and (min-width: 400px) {
+    .knapopretforum {
+        line-height:39px;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    .knapopretforum {
+        line-height:45px;
+    }
+}
+
 .katbillede1 {
     width:45%;
     border-top-left-radius:5%;
@@ -407,7 +424,13 @@ h2 {
 
 @media only screen and (min-width: 370px) {
     .bjaelkeforum {
-    top:35%;
+    top:42%;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    .bjaelkeforum {
+        top:290px;
     }
 }
 
@@ -421,7 +444,13 @@ h2 {
 
 @media only screen and (min-width: 370px) {
     #herretojoverskrift {
-        top:60%;
+        top:72%;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    #herretojoverskrift {
+        top: 487px;
     }
 }
 
@@ -433,9 +462,16 @@ h2 {
     top:109%;
 }
 
+
 @media only screen and (min-width: 370px) {
     #bornoverskrift {
-        top:88%;
+        top:106%;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    #bornoverskrift {
+        top:715px;
     }
 }
 
@@ -449,7 +485,13 @@ h2 {
 
 @media only screen and (min-width: 370px) {
     #boligoverskrift {
-        top:114%;
+        top:138%;
+    }
+}
+
+@media only screen and (min-height: 800px){
+    #boligoverskrift {
+        top:927px;
     }
 }
 
@@ -463,7 +505,14 @@ h2 {
 
 @media only screen and (min-width: 370px) {
     #strikoverskrift {
-        top:142.5%;
+        top:170%;
+        border-bottom-left-radius: 7px;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    #strikoverskrift {
+        top:1160px;
     }
 }
 
@@ -485,6 +534,18 @@ h2 {
     border-top-left-radius: 5%;
     float:left;
     margin-left:3.5%;
+}
+
+@media only screen and (min-width: 370px) {
+    .nederdel {
+        margin-left:10%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .nederdel {
+        margin-left:14%;
+    }
 }
 
 .lilleoverskrift {
@@ -543,16 +604,16 @@ h2 {
 }
 
 .overlay {
-    width:0%;
     height:100%;
+    width:0%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #4C4D4F;
     background-color: #F7F5F4;
     overflow: hidden;
     transition: 0.3s;
+    padding-top:70px;
 }
 
 .overlaycontent {
@@ -560,10 +621,11 @@ h2 {
     top: 70px;
     text-align: left;
     margin-left: 25%;
+    padding-top:50px;
 }
 
 .overlay a {
-    padding-left: 10px;
+    padding-left: 90px;
     text-decoration: none;
     color: #4C4D4F;
     display: block;
@@ -644,6 +706,8 @@ h2 {
     padding-right: 15px;
     padding-left: 2px;  
 }
+
+/* slut menu */
 
 #nederdelindpic {
     width:95%;
@@ -819,6 +883,18 @@ h2 {
     border-top-right-radius: 5%;
 }
 
+@media only screen and (min-width: 370px) {
+    .indholdkasse {
+        height:194px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    .indholdkasse {
+        height:215px;
+    }
+}
+
 .overind {
     margin-top:5px;
     margin-bottom:0px;
@@ -846,8 +922,32 @@ h2 {
     height:163px;
 }
 
+@media only screen and (min-width: 370px) {
+    #skoindhold {
+        height:191px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #skoindhold {
+        height:211px;
+    }
+}
+
 #skjorteindhold {
     height:169px;
+}
+
+@media only screen and (min-width: 370px) {
+    #skjorteindhold {
+        height:198px;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #skjorteindhold {
+        height: 219px;
+    }
 }
 
 .hashtagline {
@@ -861,6 +961,24 @@ h2 {
     margin-bottom:70px;
     top:184%;
     left:37%;
+}
+
+@media only screen and (min-width : 370px) {
+    #semere {
+        top:179%;
+    }
+}
+
+@media only screen and (min-width: 400px) {
+    #semere {
+        top:176%;
+    }
+}
+
+@media only screen and (min-height: 800px) {
+    #semere {
+        top:147%;
+    }
 }
 
 /*søgefunktion */
@@ -884,7 +1002,7 @@ h2 {
     width:100%;
 }
 
-input[type=text] {
+input[type=text]{
     background-color: transparent;
     border: none;
     border-bottom: 1px solid #9e9e9e;
@@ -944,16 +1062,3 @@ li {
 }
 
 /*infoknap */
-
-#overlay2 {
-    position:fixed;
-    display:none;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    background-color:#ffffff;
-    z-index:2;
-}

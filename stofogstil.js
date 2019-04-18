@@ -73,10 +73,3 @@ function showSlides(n) {
       }
 
     }
-
-//info knap //
-let knap = document.getElementsByClassName("infoikon");
-let overlay = document.getElementById("overlay2");
-knap.onclick = function () {
-    overlay.style.display = "block";
-}
