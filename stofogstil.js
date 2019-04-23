@@ -73,3 +73,12 @@ function showSlides(n) {
       }
 
     }
+
+//infoknap
+function on() {
+  document.getElementById("overlayinfo").style.display = "block";
+}
+
+function off() {
+  document.getElementById("overlayinfo").style.display = "none";
+}

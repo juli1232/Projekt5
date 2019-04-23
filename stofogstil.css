@@ -343,7 +343,7 @@ footer {
     text-align: center;
 }
 
-@media only screen and (min-width 370px) {
+@media only screen and (min-width: 370px) {
     #hashtagfont {
     right:20%;
 }
@@ -416,7 +416,7 @@ h2 {
     width:95%;
     height:60px;
     position:absolute;
-    top:45%;
+    top:255px;
     border-bottom-left-radius:7px;
     border-bottom-right-radius: 7px;
     margin-left:2.5%;
@@ -424,13 +424,19 @@ h2 {
 
 @media only screen and (min-width: 370px) {
     .bjaelkeforum {
-    top:42%;
+    top:282px;
     }
 }
 
 @media only screen and (min-height: 800px) {
     .bjaelkeforum {
         top:290px;
+    }
+}
+
+@media only screen and (min-width:400px) {
+    .bjaelkeforum {
+        top:310px;
     }
 }
 
@@ -629,7 +635,7 @@ h2 {
     text-decoration: none;
     color: #4C4D4F;
     display: block;
-    transition: 0.3;
+    transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
@@ -1012,7 +1018,7 @@ input[type=text]{
     width: 80%;
     font-size: 20px;
     line-height: normal;
-    padding: 0auto;
+    padding: 0;
     box-shadow: none;
     transition: all 0.3s;
     text-align: center;
@@ -1062,3 +1068,6 @@ li {
 }
 
 /*infoknap */
+#modalinfo {
+    height:1100px
+}
